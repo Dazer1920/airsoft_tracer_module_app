@@ -20,7 +20,7 @@ import java.util.UUID;
 import static com.example.tracer.Tracer.setMessage;
 
 public class Bluetooth {
-    private static Bluetooth bluetooth = new Bluetooth();
+        private static Bluetooth bluetooth = new Bluetooth();
 
     public static Bluetooth getInstance() {
         return bluetooth;
